@@ -1,0 +1,31 @@
+body {
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes color {
+    0% {
+        background-color: blue;
+    }
+    25% {
+        background-color: green;
+    }
+    50% {
+        background-color: aqua;
+    }
+    75% {
+        background-color: blueviolet;
+    }
+    100% {
+        background-color: crimson;
+    }
+}
+.image {
+    text-align: right;
+    position: relative;
+    animation: mymove 1s infinite;
+}
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 940px;}
+}
